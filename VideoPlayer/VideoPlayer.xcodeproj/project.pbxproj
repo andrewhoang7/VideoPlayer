@@ -98,9 +98,9 @@
 		490EEF8A27B0BB5800F410E4 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				490EEFBC27B0C16B00F410E4 /* Views */,
 				490EEFB527B0BDC000F410E4 /* Components */,
 				490EEF8B27B0BB5800F410E4 /* VideoPlayerApp.swift */,
-				490EEF8D27B0BB5800F410E4 /* ContentView.swift */,
 				490EEF8F27B0BB5D00F410E4 /* Assets.xcassets */,
 				490EEF9127B0BB5D00F410E4 /* Preview Content */,
 				490EEFBA27B0C02400F410E4 /* VideoManager.swift */,
@@ -139,6 +139,14 @@
 				490EEFB627B0BDDD00F410E4 /* QueryTag.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		490EEFBC27B0C16B00F410E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				490EEF8D27B0BB5800F410E4 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
