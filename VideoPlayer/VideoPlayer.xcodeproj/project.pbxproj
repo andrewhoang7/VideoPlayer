@@ -14,6 +14,7 @@
 		490EEF9D27B0BB5D00F410E4 /* VideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEF9C27B0BB5D00F410E4 /* VideoPlayerTests.swift */; };
 		490EEFA727B0BB5D00F410E4 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFA627B0BB5D00F410E4 /* VideoPlayerUITests.swift */; };
 		490EEFA927B0BB5D00F410E4 /* VideoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFA827B0BB5D00F410E4 /* VideoPlayerUITestsLaunchTests.swift */; };
+		490EEFB727B0BDDD00F410E4 /* QueryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFB627B0BDDD00F410E4 /* QueryTag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		490EEFA227B0BB5D00F410E4 /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		490EEFA627B0BB5D00F410E4 /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		490EEFA827B0BB5D00F410E4 /* VideoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		490EEFB627B0BDDD00F410E4 /* QueryTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		490EEF8A27B0BB5800F410E4 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				490EEFB527B0BDC000F410E4 /* Components */,
 				490EEF8B27B0BB5800F410E4 /* VideoPlayerApp.swift */,
 				490EEF8D27B0BB5800F410E4 /* ContentView.swift */,
 				490EEF8F27B0BB5D00F410E4 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				490EEFA827B0BB5D00F410E4 /* VideoPlayerUITestsLaunchTests.swift */,
 			);
 			path = VideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		490EEFB527B0BDC000F410E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				490EEFB627B0BDDD00F410E4 /* QueryTag.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490EEF8E27B0BB5800F410E4 /* ContentView.swift in Sources */,
+				490EEFB727B0BDDD00F410E4 /* QueryTag.swift in Sources */,
 				490EEF8C27B0BB5800F410E4 /* VideoPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
