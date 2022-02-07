@@ -15,6 +15,7 @@
 		490EEFA727B0BB5D00F410E4 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFA627B0BB5D00F410E4 /* VideoPlayerUITests.swift */; };
 		490EEFA927B0BB5D00F410E4 /* VideoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFA827B0BB5D00F410E4 /* VideoPlayerUITestsLaunchTests.swift */; };
 		490EEFB727B0BDDD00F410E4 /* QueryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFB627B0BDDD00F410E4 /* QueryTag.swift */; };
+		490EEFBB27B0C02400F410E4 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFBA27B0C02400F410E4 /* VideoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		490EEFA627B0BB5D00F410E4 /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		490EEFA827B0BB5D00F410E4 /* VideoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		490EEFB627B0BDDD00F410E4 /* QueryTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTag.swift; sourceTree = "<group>"; };
+		490EEFBA27B0C02400F410E4 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				490EEF8D27B0BB5800F410E4 /* ContentView.swift */,
 				490EEF8F27B0BB5D00F410E4 /* Assets.xcassets */,
 				490EEF9127B0BB5D00F410E4 /* Preview Content */,
+				490EEFBA27B0C02400F410E4 /* VideoManager.swift */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				490EEF8E27B0BB5800F410E4 /* ContentView.swift in Sources */,
 				490EEFB727B0BDDD00F410E4 /* QueryTag.swift in Sources */,
 				490EEF8C27B0BB5800F410E4 /* VideoPlayerApp.swift in Sources */,
+				490EEFBB27B0C02400F410E4 /* VideoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
