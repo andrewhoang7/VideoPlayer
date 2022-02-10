@@ -17,6 +17,7 @@
 		490EEFB727B0BDDD00F410E4 /* QueryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFB627B0BDDD00F410E4 /* QueryTag.swift */; };
 		490EEFBB27B0C02400F410E4 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFBA27B0C02400F410E4 /* VideoManager.swift */; };
 		490EEFBE27B0C54800F410E4 /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEFBD27B0C54800F410E4 /* VideoCard.swift */; };
+		49F7D3AC27B556D2002FC22F /* videoCard.json in Resources */ = {isa = PBXBuildFile; fileRef = 49F7D3AB27B556D2002FC22F /* videoCard.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		490EEFB627B0BDDD00F410E4 /* QueryTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTag.swift; sourceTree = "<group>"; };
 		490EEFBA27B0C02400F410E4 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 		490EEFBD27B0C54800F410E4 /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
+		49F7D3AB27B556D2002FC22F /* videoCard.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = videoCard.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				490EEF9227B0BB5D00F410E4 /* Preview Assets.xcassets */,
+				49F7D3AB27B556D2002FC22F /* videoCard.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F7D3AC27B556D2002FC22F /* videoCard.json in Resources */,
 				490EEF9327B0BB5D00F410E4 /* Preview Assets.xcassets in Resources */,
 				490EEF9027B0BB5D00F410E4 /* Assets.xcassets in Resources */,
 			);
