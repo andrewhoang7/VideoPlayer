@@ -30,7 +30,7 @@ class VideoManager: ObservableObject {
     
     func findVideos(topic: Query) async {
         do {
-            guard let url = URL(string: "https://api.pexels.com/v1/search?query=\(topic)&per_page=10&orientation=portrait") else { fatalError("Missing URL") }
+            guard let url = URL(string: "https://api.pexels.com/videos/search?query=\(topic)&per_page=10&orientation=portrait") else { fatalError("Missing URL") }
             var urlRequest = URLRequest(url: url)
             urlRequest.setValue("563492ad6f917000010000012d241364a88b44c6a55359057a96d07a", forHTTPHeaderField: "Authorization")
             
@@ -54,31 +54,31 @@ class VideoManager: ObservableObject {
 }
 
 struct ResponseBody: Decodable {
-    let page: Int
-    let perPage: Int
-    let totalResults: Int
-    let url: String
-    let videos: [Video]
+    var page: Int
+    var perPage: Int
+    var totalResults: Int
+    var url: String
+    var videos: [Video]
 }
 
 struct Video: Decodable, Identifiable {
-    let id: Int
-    let image: String
-    let duration: Int
-    let user: User
-    let videoFiles: [VideoFile]
+    var id: Int
+    var image: String
+    var duration: Int
+    var user: User
+    var videoFiles: [VideoFile]
     
     struct User: Decodable, Identifiable {
-        let id: Int
-        let name: String
-        let url: String
+        var id: Int
+        var name: String
+        var url: String
     }
     
     struct VideoFile: Decodable {
-        let id: Int
-        let quality: String
-        let fileType: String
-        let link: String
+        var id: Int
+        var quality: String
+        var fileType: String
+        var link: String
     }
 }
 
